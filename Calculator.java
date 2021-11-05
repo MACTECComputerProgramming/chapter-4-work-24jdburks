@@ -1,17 +1,13 @@
 
-package Tip02;
+package tip03;
 
 public class Calculator {
     public double tax = .05;
-    public double tip = .15;  //Change tax and tip if you prefer different values
-    public double originalPrice = 0;
+    public double tip = .15;
     
-    public void findTotal(){
-        
-        double total = (originalPrice*(1+tax+tip));
-        System.out.println(total);
-        
-        //Calculate an individual's total after tax and tip
-        //Print this value
+    public void findTotal(double price, String name){
+        double total = price*(1+tax+tip);
+        System.out.println(name + " - $" + total);
+
     }
 }
