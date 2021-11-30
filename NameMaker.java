@@ -1,0 +1,25 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package com.example;
+
+
+public class NameMaker {
+    
+    public static void main(String args[])
+    {
+        
+        String firstName = "Joseph";
+         System.out.println("Enter your first name: " + firstName);
+        String middleName = "Daniel";
+          System.out.println("Enter your middle name: "+ middleName);
+        String lastName = "Burks";
+         System.out.println("Enter your last name: "+ lastName);
+        String fullName = firstName +' '+ middleName +' '+ lastName;
+        System.out.println(fullName);
+           
+    }
+    
+}
